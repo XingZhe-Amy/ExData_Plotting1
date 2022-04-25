@@ -18,6 +18,9 @@ inthpccut <- hpccut[, c(10, 3:9)]
 
 
 # plot 4
+# Sys.setlocale("LC_TIME", "English")
+# weekdays(Sys.Date()+0:6,abbreviate = T)
+
 png(filename = "plot4.png", width = 480, height = 480)
 
 par(mfrow = c(2, 2))
